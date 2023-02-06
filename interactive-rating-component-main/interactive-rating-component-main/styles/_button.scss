@@ -1,0 +1,69 @@
+@mixin btn($bg-colors) {
+    width: 15%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid $btn_Grey;
+    border-color: $btn_Grey;
+    background-color: $bg-colors;
+    transition: all .3s linear;
+}
+
+
+@mixin btn2($bg-colors) {
+    display: block;
+    padding: .9rem 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-colors;
+    border-radius: 30px;
+    font-size: .9rem;
+    font-weight: 700;
+    margin-bottom: 1rem; 
+    border-color: $Orange;
+    transition: all 400ms linear;
+}
+
+@each $key, $val in $colors {
+    .btn-#{$key} {
+      @include btn($val);
+    
+    }
+    
+    
+    .btn-hover-#{$key} {
+    &:hover{
+        background-color: $val;
+    }
+
+    &:focus{
+        background-color: $Medium_Grey;
+        color: $White;
+    }
+}
+
+
+.btn-md-#{$key}{
+@include btn2($val);
+
+&:hover{
+    background-color: $White;
+}
+
+}
+}
+
+
+
+.buttons{
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+

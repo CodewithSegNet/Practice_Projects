@@ -1,0 +1,104 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all .2s linear;
+}
+
+html{
+    overflow-x: hidden;
+    font-size: 100%;
+    min-width: $Mobile;
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+    background: $Very_Dark_Blue;
+}
+
+h1,h2,h3,h4,h5{
+    color: $White;
+}
+
+span{
+    color: $Orange;
+}
+
+p{
+    color: $Medium_Grey;
+    font-size: 1rem;
+}
+
+a{
+    color: $Medium_Grey;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+main{
+background: $Very_Dark_Blue;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: grid;
+place-items: center;
+min-height: 100vh;
+margin: 0 auto;
+max-width: $Desktop;
+}
+
+
+
+.content{
+    width: 25%;
+    background-color: $Dark_Blue;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.1);
+
+    @include desktop{
+        width: 30%;
+    }
+
+    @include tab{
+        width: 38%;
+    }
+
+    @include phone{
+        width: 45%;
+}
+
+@include xsmall{
+    width: 64%;
+}
+
+@include breakpoint(400px){
+width: 85%;
+}
+
+}
+
+.span_2{
+    background: $btn_Grey;
+    padding: .4rem 1rem;
+    border-radius: 30px;
+}
+
+.hidden{
+    display: none;
+}
+
+.attribution{
+    font-size: 11px; text-align: center;
+
+    a{
+        color: hsl(228, 45%, 44%);
+    }
+}

@@ -1,0 +1,28 @@
+$colors : (
+    "white": $White,
+    "vryLGry": $Light_Grey,
+    "mdGry": $Medium_Grey,
+    "dkBl": $Dark_Blue,
+    "vryDkBl": $Very_Dark_Blue,
+    "orange": $Orange,
+    "btnclr": $btn_Grey,
+);
+
+
+@each $key, $val in $colors {
+
+    .text-#{$key}{
+        color: $val;
+    }
+
+    .text-hover-#{$key}{
+        &:hover{
+            color: $val;
+        }
+    }
+   
+
+    .bg-#{$key}{
+        background-color: $val;
+    }
+}
