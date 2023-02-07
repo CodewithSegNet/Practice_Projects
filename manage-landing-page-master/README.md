@@ -31,5 +31,6 @@ I intend to comeback to this project someday to track my progress as a web dev. 
 
 > *"clean code never obscures the designer's intent but rather is full of crisp abstractions and straightforward lines of control."* - ***Robert C. Martin***.
 
-
+# Contributor
+*Olusegun Emmanuel*
 
