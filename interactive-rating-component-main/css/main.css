@@ -498,17 +498,17 @@ main {
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-@media (max-width: 1298px) {
+@media (max-width: 1200px) {
   .content {
     width: 30%;
   }
 }
-@media (max-width: 1044px) {
+@media (max-width: 992px) {
   .content {
-    width: 38%;
+    width: 40%;
   }
 }
-@media (max-width: 828px) {
+@media (max-width: 768px) {
   .content {
     width: 45%;
   }
@@ -537,6 +537,7 @@ main {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: #fff;
 }
 .attribution a {
   color: hsl(228deg, 45%, 44%);
