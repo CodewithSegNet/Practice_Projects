@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Overpass);
+@import url('https://fonts.google.com/specimen/Overpass');
 .text-white {
   color: hsl(0deg, 0%, 100%);
 }
