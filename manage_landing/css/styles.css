@@ -1493,4 +1493,12 @@ div .footer .row {
     padding: 0.95rem;
     font-size: 1rem;
 }
+
+.last-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+}
 }
