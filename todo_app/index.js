@@ -22,7 +22,8 @@ sun.addEventListener('click', () => {
     input.classList.add('card_light')
     place.classList.add('card_light')
     body.classList.add('card_light')
-    banner.classList.add("banner_light")
+    banner2.classList.remove("hidden")
+    banner.classList.add('hidden')
 
   }
 })
@@ -38,7 +39,8 @@ moon.addEventListener('click', () => {
     input.classList.remove('card_light')
     place.classList.remove('card_light')
     body.classList.remove('card_light')
-    banner.classList.remove("banner_light")
+    banner.classList.remove("hidden")
+    banner2.classList.add("hidden")
     choice2.classList.remove("card_light")
   }
 })
