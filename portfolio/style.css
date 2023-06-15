@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Righteous&display=swap');
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive; */
+
+/* Global tag */
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .2s linear;
+    list-style: none;
+    color: orange;
+}
+
+
+html{
+    font-size: 100%; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 376px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    overflow-x: hidden;
+    background: #000;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+/* end of Global tag */
+
+
+/* first container */
+.first_container{
+    width: 100%;
+}
+/* end of first container */
+
+/* mobile nav */
+.Logo{
+    font-family: 'Righteous', cursive; 
+    font-weight: 800;
+    color: #fff;
+}
+
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.list_item{
+    text-align: center;
+    padding: 0;
+    width: 60%;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: none;
+}
+
+.item{
+    color: #000;
+    transition: 20ms ease-in-out;
+}
+
+.item:hover{
+    color: orange;
+}
+
+li{
+    padding: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.burger div{
+    align-items: center;
+    height: 2px;
+    width: 30px;
+    margin: 5px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+  }
+
+/* end of nav */
+
+
+/* second container */
+.second_container{
+    margin-top: 30px;
+}
+
+.intro_section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro{
+    color: orange;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 0;
+    line-height: .9;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+}
+
+p{
+    font-size: 1.1rem;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.name{
+    color: orange;
+    font-family: 'Righteous', cursive;
+}
+
+.btn{
+    padding: 8px 30px;
+    background-color: orange;
+    border-radius: 20px;
+    border: 2px solid orange;
+    margin-right: 10px;
+    transition: 200ms ease-in;
+    color: #fff;
+}
+
+.btn1{
+    padding: 8px 30px;
+    background-color: #000;
+    border-radius: 20px;
+    border: 2px solid orange;
+    margin-right: 10px;
+    color: orange;
+}
+
+.btn:hover{
+    padding: 8px 30px;
+    background-color: #000;
+    border: 2px solid orange;
+    margin-right: 10px;
+    color: orange;
+}
+
+.fill{
+    margin-bottom: 30px;
+}
+
+.aboutMe{
+    color: orange;
+}
+
+/* end of second container */
+
+/* third container */
+
+.third_container{
+    text-align: center;
+    width: 90%;
+    margin: 130px auto auto;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.airbnb{
+    text-align: left;
+    padding: 5px;
+    color: orange;
+}
+
+.D-jukebox{
+    text-align: left;
+    padding: 5px;
+    color: orange;
+}
+
+.grid{
+    max-height: 50%;
+    width: 100%;
+}
+
+.airbnb_link{
+    color: blue;
+    text-decoration: underline;
+}
+
+.ReadMore{
+    font-size: .8rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+   display: block;
+   text-align: left;
+   padding-top: 5px;
+}
+
+.ReadMore:hover{
+    transform: scale(.95);
+    text-decoration: underline;
+}
+
+.content{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    color: orange;
+}
+/* end of third container */
+
+/* fourth container */
+.fourth_container{
+   
+    margin-top: 100px;
+    color: #fff;
+}
+
+.fourth{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+ 
+}
+
+.fourth p{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+
+/* end of fourth container */
+
+/* form template */
+.form{
+    text-align: center;
+}
+
+form{
+    width: 90%;
+    margin: 0 auto;
+    background: transparent;
+    box-shadow: 0 0 20px 0 #110;;
+    padding-bottom: 30px;
+}
+
+.input-field{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.form_btn{
+    margin-top: 20px;
+}
+
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.social2{
+    margin-top: 50px;
+}
+
+.social_icon{
+    padding-right: 8px;
+}
+
+svg path{
+    fill: #fff;
+    transition: 100ms ease-in;
+}
+
+svg path:hover{
+    fill: orange;
+}
+/* end of template */
+
+
+/* Blogs */
+
+.My_Blogs{
+    width: 90%;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blogs{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    color: orange;
+}
+
+
+.blogs h3{
+    color: orange;
+}
+
+
+.blog_link{
+    color: #fff;
+}
+
+
+/* end of blogs */
+
+
+
+
+
+
+/* breakpoints */
+
+@media (min-width: 672px) {
+
+
+   .intro_section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.test{
+    width: 100%;
+}
+
+
+
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+   .My_Blogs{
+    width: 70%;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+/* form template */
+.form{
+    text-align: center;
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+    background: transparent;
+    box-shadow: 0 0 20px 0 #110;;
+    padding-bottom: 30px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.form_btn{
+    margin-top: 20px;
+}
+
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.social2{
+    margin-top: 50px;
+}
+
+.social_icon{
+    padding-right: 8px;
+}
+
+svg path{
+    fill: #fff;
+    transition: 100ms ease-in;
+}
+
+svg path:hover{
+    fill: orange;
+}
+/* end of template */
+
+
+.fourth{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+ 
+}
+
+.third_container{
+    text-align: center;
+    width: 70%;
+    margin: 130px auto auto;
+}
+    
+}
+
+
+@media (min-width: 1029px){
+
+    .list_item{
+        text-align: center;
+        padding: 0;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #000;
+    }
+
+    .burger{
+        display: none;
+    }
+
+    .item{
+        color: #fff;
+    }
+
+
+    .intro_section{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .test{
+        width: 50%;
+    }
+    
+    nav{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        padding: 2px 0;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+       .My_Blogs{
+        width: 70%;
+        padding-top: 40px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /* form template */
+    .form{
+        text-align: center;
+    }
+    
+    form{
+        width: 90%;
+        margin: 0 auto;
+        background: transparent;
+        box-shadow: 0 0 20px 0 #110;;
+        padding-bottom: 30px;
+    }
+    
+    .input-field{
+        width: 600px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #777;
+        border-radius: 14px;
+        outline: none;
+    }
+    
+    .form_btn{
+        margin-top: 20px;
+    }
+    
+    
+    .textarea-field{
+        height: 150px;
+        padding-top: 10px;
+    }
+    
+    .social2{
+        margin-top: 50px;
+    }
+    
+    .social_icon{
+        padding-right: 8px;
+    }
+    
+    svg path{
+        fill: #fff;
+        transition: 100ms ease-in;
+    }
+    
+    svg path:hover{
+        fill: orange;
+    }
+    /* end of template */
+    
+    
+    .fourth{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+     
+    }
+    
+    .third_container{
+        text-align: center;
+        width: 90%;
+        margin: 130px auto auto;
+    }
+
+
+}
+
+
+
+
+/* end of breakpoints */
