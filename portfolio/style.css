@@ -38,6 +38,11 @@ img{
 }
 /* end of Global tag */
 
+.show{
+    display: block;
+}
+
+
 
 /* first container */
 .first_container{
@@ -58,20 +63,29 @@ nav{
     justify-content: space-between;
     padding: 10px 0;
     margin: 0 auto;
+    position: relative;
+}
+
+.hide{
+    display: none;
 }
 
 .list_item{
     text-align: center;
     padding: 0;
-    width: 60%;
-    margin-top: 30px;
-    background-color: #fff;
+    width: 90%;
+    margin-top: 50px;
+    background-color: #000;
+    border: 1px solid orange;
     border-radius: 10px;
-    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all 0.5s ease;
 }
 
 .item{
-    color: #000;
+    color: #fff;
     transition: 20ms ease-in-out;
 }
 
@@ -197,6 +211,14 @@ main{
     text-align: left;
     padding: 5px;
     color: orange;
+}
+
+.AirBnB{
+    height: 200px;
+}
+
+.JukeBox{
+    height: 200px;
 }
 
 .grid{
@@ -333,6 +355,10 @@ svg path:hover{
     color: #fff;
 }
 
+.blog_link:hover{
+    text-decoration: underline;
+}
+
 
 /* end of blogs */
 
@@ -347,7 +373,7 @@ svg path:hover{
 
 
    .intro_section{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -364,7 +390,7 @@ svg path:hover{
 
 
 nav{
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
@@ -372,7 +398,7 @@ nav{
 }
 
    .My_Blogs{
-    width: 70%;
+    width: 90%;
     padding-top: 40px;
     text-align: center;
     margin: 0 auto;
@@ -383,10 +409,11 @@ nav{
 /* form template */
 .form{
     text-align: center;
+    margin-top: 80px;
 }
 
 form{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     background: transparent;
     box-shadow: 0 0 20px 0 #110;;
@@ -434,7 +461,7 @@ svg path:hover{
 
 
 .fourth{
-    width: 70%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
  
@@ -442,7 +469,7 @@ svg path:hover{
 
 .third_container{
     text-align: center;
-    width: 70%;
+    width: 90%;
     margin: 130px auto auto;
 }
     
@@ -454,11 +481,15 @@ svg path:hover{
     .list_item{
         text-align: center;
         padding: 0;
-        width: 60%;
+        width: 50%;
+       left: 73%;
+       top: -22px;
+       margin-top: 30px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         background: #000;
+         border: none;
     }
 
     .burger{
@@ -486,7 +517,7 @@ svg path:hover{
         width: 90%;
         display: flex;
         justify-content: space-between;
-        padding: 2px 0;
+        padding: 11px 0;
         margin: 0 auto;
         align-items: center;
     }
@@ -572,7 +603,17 @@ svg path:hover{
 
 }
 
+.toggle .line1{
+    transform: rotate(-45deg) translate(-4px, 6px);
+}
 
+.toggle .line2{
+opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px,-6px);
+}
 
 
 /* end of breakpoints */
