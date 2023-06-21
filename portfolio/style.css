@@ -47,6 +47,7 @@ img{
 /* first container */
 .first_container{
     width: 100%;
+    position: fixed;
 }
 /* end of first container */
 
@@ -169,6 +170,23 @@ p{
     background-color: #000;
     border: 2px solid orange;
     margin-right: 10px;
+    color: orange;
+}
+
+.link{
+    display: flex;
+    width: 90%;
+}
+
+.contact_info p{
+    color: orange;
+}
+
+.contact_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
     color: orange;
 }
 
@@ -363,6 +381,15 @@ svg path:hover{
 /* end of blogs */
 
 
+ul.list{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 30px auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+}
 
 
 
@@ -435,6 +462,9 @@ form{
     margin-top: 20px;
 }
 
+.first_container{
+    position: fixed;
+}
 
 .textarea-field{
     height: 150px;
@@ -443,6 +473,15 @@ form{
 
 .social2{
     margin-top: 50px;
+}
+
+
+ul.list{
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .social_icon{
@@ -600,8 +639,17 @@ svg path:hover{
         margin: 130px auto auto;
     }
 
-
+ul.list{
+        display: flex;
+        width: 90%;
+        margin: 30px auto;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
+
+
+
 
 .toggle .line1{
     transform: rotate(-45deg) translate(-4px, 6px);
