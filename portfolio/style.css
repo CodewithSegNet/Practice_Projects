@@ -2,7 +2,100 @@
 
 
 
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    color: #50727B !important;
+}
+
+
+h1, h2, h3, h4{
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+
+ul{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.text-primary {
+    color: #50727B !important;
+}
+
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(73, 80, 87);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 100%;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: .7em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+p.lead {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.telephone{
+    padding-top: 1rem;
+}
+
+
+
+
 /* first container */
+@media(min-width: 992px){
 *,
 ::before,
 ::after{
@@ -118,6 +211,19 @@ ul{
 
 
 
+.socials{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.telephone{
+    padding-top: 0;
+}
+
+
 .social-icons .social-icon {
     display: inline-flex;
     align-items: center;
@@ -146,7 +252,6 @@ ul{
 
 /* container section */
 
-
 section.resume-section {
     display: flex;
     align-items: center;
@@ -171,3 +276,5 @@ p.lead {
     font-size: 1.3rem;
     font-weight: 300;
 }
+} 
+ 
